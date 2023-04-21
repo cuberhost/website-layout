@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ========================================= body =================== */
+body {
+
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  padding-bottom: 50px;
+
+}
+/* ========================================= body =================== */
+
+
+
+
+/* ========================================= top navigation =================== */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar h5 {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar h5:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+/* ========================================= top navigation =================== */
+
+
+
+
+
+/* ========================================= side navigation =================== */
+
+.sidenav {
+  position: fixed;
+  z-index: 1;
+  background: #eef;
+  overflow-x: hidden;
+  padding: 260px 0;
+  height: 600px;
+  width: 260px;
+  z-index: 1;
+  top: 100;
+  left: 0;
+  bottom: 500;
+  background-color: #111;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: 200px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+/* ========================================= side navigation =================== */
+
+
+
+/* ========================================= side navigation footer =================== */
+.sidenavfoot {
+
+  z-index: 1;
+  background: red;
+  padding: 0 0;
+  height: 50px;
+  width: 260px;
+  z-index: 1;
+  top: 10;
+  left: 0;
+  bottom: 50;
+  overflow: hidden;
+  background-color: orangered ;
+  position: fixed;
+  margin-top: 810px;
+}
+
+.sidenavfoot a {
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2196F3;
+  
+
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sidenavfoot a:hover {
+  color: #064579;
+}
+
+/* ========================================= side navigation footer =================== */
+
+
+
+
+
+
+/* ========================================= foot navigation =================== */
+.footnav {
+  overflow: hidden;
+  background-color: darkmagenta ;
+  position: fixed;
+  width: 1660px;
+  margin-top: 810px;
+  margin-left: 260px;
+}
+
+.footnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.footnav h5 {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.footnav h5:hover {
+  background: #ddd;
+  color: black;
+}
+
+.footnav a:hover {
+  background: #ddd;
+  color: black;
+}
+/* ========================================= foot navigation =================== */
+
+
+
+
+
+
+
+
+
+/* =========================================main=================== */
+
+.main {
+
+  padding: 16px;
+  margin-left: 260px;
+  margin-top: 50px;
+  height: 150px; /* Used in this example to enable scrolling */
+  font-size: 28px;
+  padding: 0px 10px;
+}
+/* =========================================main=================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
