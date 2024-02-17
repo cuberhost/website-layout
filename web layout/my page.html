@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HTML Div Layout</title>
+<style>
+    body {
+      font: 14px Arial,sans-serif;  
+      width: 70%;
+      height: auto;
+      margin: 0 auto;
+      
+      
+    }
+    .header {
+        padding: 10px 20px;
+        background: #acb3b9; 
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .container {
+        width: 100%;
+        
+    }
+    .nav, .section {
+        float: left; 
+        padding: 20px;
+        min-height: 200px;
+        box-sizing: border-box;
+    }
+    .nav {            
+        width: 20%;             
+        
+    }
+    .section {
+        width: 80%;
+    }
+    .nav ul {
+        list-style: none; 
+        line-height: 24px;
+        padding: 0px; 
+    }
+    .nav ul li a {
+        color: #333;
+    }    
+    
+    .footer {
+        background: #acb3b9;            
+        text-align: center;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+  
+<div class="container"> <!--container start-->
+      
+      
+      
+        <div class="header">
+          
+            <h1>page</h1>
+            <hr>
+        </div>
+      
+      
+      
+        <div>   <!--sidebar and content start-->
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+          
+          
+            <div class="section">
+                <h1>ipsum</h1>
+    
+              
+              <p>lorem ipsum </p>
+            </div>
+          
+       
+          
+</div> <!--sidebar and content end-->
+      
+      
+      
+        <div class="footer">
+          <hr>
+            <p>copyright &copy; xxxxxxxxxxxx</p>
+        </div>
+      
+      
+    </div><!--container end-->
+  
+  
+</body>
+</html>
